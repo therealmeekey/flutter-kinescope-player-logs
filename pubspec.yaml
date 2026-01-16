@@ -1,0 +1,27 @@
+name: flutter_kinescope_sdk
+description: Flutter plugin for the Kinescope player.
+version: 0.2.3
+homepage: https://kinescope.io/
+repository: https://github.com/kinescope/flutter-kinescope-player
+issue_tracker: https://github.com/kinescope/flutter-kinescope-player/issues
+
+flutter:
+  assets:
+    - assets/web/web_support.html
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web: ">=0.5.1 <2.0.0"
+  webview_flutter_android: ^4.7.0
+  webview_flutter_platform_interface: ^2.13.0
+  webview_flutter_wkwebview: ^3.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  surf_lint_rules: 3.1.0
